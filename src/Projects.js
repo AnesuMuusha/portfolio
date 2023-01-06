@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import Projects1 from "./images/iconiMessiAndCristiano.jpeg";
+import Projects1 from "./images/iconiMessiAndCristiano.jpeg"; 
 import Projects2 from "./images/ExpenseTracker2.jpg";
 import Projects3 from "./images/myCvImage7.jpg";
 import Projects4 from "./images/logistics_twitter.jpg";
@@ -26,7 +26,7 @@ const Projects = () => {
                 <div className="project__meta absolute">
                   <h5 className="project__text">Chess Bet</h5>
                   <h4 className="project__text">Online betting site #Chess</h4>
-                  <a href="#" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                   <h4 className="project__text">
                     Click here to track your expenses
                   </h4>
-                  <a href="#" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -66,7 +66,7 @@ const Projects = () => {
                   <h4 className="project__text">
                     Click here to view my Portfolio
                   </h4>
-                  <a href="#" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -86,7 +86,7 @@ const Projects = () => {
                   <h4 className="project__text">
                     Movement and storage of goods
                   </h4>
-                  <a href="#" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -104,7 +104,7 @@ const Projects = () => {
                 <div className="project__meta absolute">
                   <h5 className="project__text">Stock analysis</h5>
                   <h4 className="project__text">stock Future value</h4>
-                  <a href="#" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -122,7 +122,7 @@ const Projects = () => {
                 <div className="project__meta absolute">
                   <h5 className="project__text">AI shopping system</h5>
                   <h4 className="project__text">AI shopping assistant</h4>
-                  <a href="#" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>
