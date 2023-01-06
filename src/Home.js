@@ -11,8 +11,8 @@ const Home = () => {
   return (
 
     
-    <div className="home__bg" id="Home">
-      <div className="home">
+    <div className="home__bg" id="Home" >
+      <div className="header">
         <div className="navigation.pxy__30">
           {/* <div className='logo'>
     <img src={logo} alt=""/>
