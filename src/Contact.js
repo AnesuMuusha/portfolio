@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import contactImg from "./images/myCvImage5.jpg"
-import * as yup from "yup"; 
+//import * as yup from "yup"; 
 import { userSchema } from "./Validations/UserValidation";
 
 const Contact = () => {

@@ -1,5 +1,5 @@
 .home__bg{
-    background-image: url(/home/ayshan/Desktop/MuushaKingDeveloperPortfolio/myPortfolio/src/images/myCvImage5.jpg);
+    background-image: url("./images/myCvImage5.jpg");
     background-color: #010101;
     background-position: 100%;
     background-repeat: no-repeat;
