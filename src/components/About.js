@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import myCvImage5 from "./images/myCvImage5.jpg";
+import myCvImage5 from "../images/myCvImage5.jpg";
 const About = () => {
   //up to top Btn
   window.addEventListener("scroll", function() {

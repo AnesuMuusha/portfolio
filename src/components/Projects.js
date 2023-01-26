@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css";
-import Projects1 from "./images/iconiMessiAndCristiano.jpeg"; 
-import Projects2 from "./images/ExpenseTracker2.jpg";
-import Projects3 from "./images/myCvImage7.jpg";
-import Projects4 from "./images/logistics_twitter.jpg";
-import Projects5 from "./images/StockPrediction.jpeg";
-import Projects6 from "./images/AI shopping system.jpg";
+import Projects1 from "../images/iconiMessiAndCristiano.jpeg"; 
+import Projects2 from "../images/ExpenseTracker2.jpg";
+import Projects3 from "../images/myCvImage7.jpg";
+import Projects4 from "../images/logistics_twitter.jpg";
+import Projects5 from "../images/StockPrediction.jpeg";
+import Projects6 from "../images/AI shopping system.jpg";
 
 const Projects = () => {
   return (
@@ -42,11 +42,11 @@ const Projects = () => {
                 </div>
                 <div className="mask__effect"></div>
                 <div className="project__meta absolute">
-                  <h5 className="project__text">React App</h5>
+                  <h5 className="project__text">Expenses</h5>
                   <h4 className="project__text">
                     Click here to track your expenses
                   </h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <a href="https://my-expence-tracker1212.netlify.app" className="project__btn">
                     View Details
                   </a>
                 </div>

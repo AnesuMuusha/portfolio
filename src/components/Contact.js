@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contact.css";
-import contactImg from "./images/myCvImage5.jpg"
+import contactImg from "../images/myCvImage5.jpg"
 //import * as yup from "yup"; 
-import { userSchema } from "./Validations/UserValidation";
+import { userSchema } from "../Validations/UserValidation";
 
 const Contact = () => {
 
@@ -27,17 +27,18 @@ console.log(isValid);
             <div className="contact__meta">
               <h1 className="hire__text">Hire Me</h1>
               <p className="hire__text white">
-                I'm ready to start. Contantact with me via phone:
+                I'm ready to start. Contact with me via phone:
               </p>
               <p className="hire__text white">
                 <strong>+27687070925 </strong>
-                <strong>or email</strong>
-                <strong>anesumuusha@gmail.com</strong>
+                <strong>or email</strong><br/>
+               <a href="https://mail.google.com/"><strong>anesumuusha@gmail.com</strong></a><br/>
+                {/* <strong>anesumuusha@gmail.com</strong> */}
               </p>
 
                 <div className="input__box">
                 <input type="text" id="userName" className="contact name" placeholder="your name *"/>
-                <input type="text" id="email" className="contact email" placeholder="email *"/>
+                <input type="email" id="email" className="contact email" placeholder="email *"/>
                 <input type="text" id="subject" className="contact subject" placeholder="write a subject"/>
                 <textarea name="message" id="message" placeholder="write your message"></textarea>
                 <button onSubmit={documentRequest} className="btn contact pointer" type="submit">Submit</button>
