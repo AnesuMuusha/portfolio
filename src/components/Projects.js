@@ -11,7 +11,6 @@ const Projects = () => {
   return (
     <div className="projects component___space" id="Portfolio">
       <div className="heading">
-        <button>test button</button>
         <h1 className="heading">My Latest Projects</h1>
         <p className="heading p__color">Placed in ascendind order.</p>
       </div>
