@@ -66,7 +66,7 @@ const Projects = () => {
                   <h4 className="project__text">
                     Click here to view my Portfolio
                   </h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app"  className="project__btn">
                     View Details
                   </a>
                 </div>
