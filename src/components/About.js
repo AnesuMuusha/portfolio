@@ -18,10 +18,16 @@ const About = () => {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                I am a dedicated individual aged 24 seeking new challenges in
-                life.I am a holder of a National Certificate in Information
-                Technology. My tech stack React.js, html, css, javascript, php,
-                C++ and VB
+                I am a driven and eager software developer with a passion for
+                learning and growth. I am currently on a journey to expand my
+                skills and knowledge in the tech industry, and I am constantly
+                seeking new challenges to help me grow.
+                 My current tech stack
+                includes React.js, HTML, CSS, JavaScript, PHP, C++, and VB, and
+                I am excited to continue exploring and mastering new
+                technologies. As a junior developer, I am committed to
+                delivering high-quality, user-friendly applications and to
+                continuously improving my skills and expertise.
               </p>
 
               <div className="about__button d__flex align__items__center">
@@ -39,8 +45,7 @@ const About = () => {
 
       {/*up tp top button*/}
       <div className="up__to__top__btn">
-        <a
-          href="https://anesu-portfolio.netlify.app"
+      <a href="#Home"
           className="bottom__to__top"
         >
           <svg
