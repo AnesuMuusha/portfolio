@@ -16,6 +16,7 @@ const Service = () => {
       <div className="container">
         <div className="row">
           <div className="col__3">
+          <a href="https://my-expence-tracker1212.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -41,6 +42,7 @@ const Service = () => {
               </p>
 
             </div>
+            </a>
           </div>
 
           <div className="col__3">
@@ -71,7 +73,8 @@ const Service = () => {
  
 
 
-          <div className="col__3">
+          <div className="col__3" >
+            <a href="https://anesu-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -98,10 +101,12 @@ const Service = () => {
               </p>
 
             </div>
+            </a>
           </div>
 
 
           <div className="col__3">
+          <a href="https://food-order-1212.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="service__box pointer">
               <div className="icon">
                 <svg
@@ -129,6 +134,7 @@ const Service = () => {
 
 
             </div>
+            </a>
           </div>
 
 

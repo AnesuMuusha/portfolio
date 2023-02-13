@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="heading">
         <button>test button</button>
         <h1 className="heading">My Latest Projects</h1>
-        <p className="heading p__color">Placed in ascendind order.</p>
+        <p className="heading p__color">Placed in ascending order.</p>
       </div>
       <div className="container">
         <div className="row">
@@ -27,7 +27,7 @@ const Projects = () => {
                 <div className="project__meta absolute">
                   <h5 className="project__text">Chess Bet</h5>
                   <h4 className="project__text">Online betting site #Chess</h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                   <h4 className="project__text">
                     Click here to track your expenses
                   </h4>
-                  <a href="https://my-expence-tracker1212.netlify.app" className="project__btn">
+                   <a href="https://my-expence-tracker1212.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -67,7 +67,7 @@ const Projects = () => {
                   <h4 className="project__text">
                     Click here to view my Portfolio
                   </h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <a href="https://anesu-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
