@@ -1,24 +1,37 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Contact.css";
 import contactImg from "../images/myCvImage5.jpg"
-//import * as yup from "yup"; 
-import { userSchema } from "../Validations/UserValidation";
 
 const Contact = () => {
+  const[input1,setInput1]=useState("");
+  const[input2,setInput2]=useState("");
+  const[input3,setInput3]=useState("");
+  const[input4,setInput4]=useState("");
 
-const documentRequest =async(e)=>{
-e.preventDefault()
-let formData ={
-userName:e.target[0].value,
-email:e.target[1].value,
-subject:e.target[2].value,
-message:e.target[3].value,
-};
-console.log(formData);
-const isValid = await userSchema.isValid(formData)
-console.log(isValid);
-};
+  const buttonHandler = ()=>{
+   
+    if(input1==="" || input2===" " || input3==="" || input4==="")
+     return(
+       alert("Fill up form")
+     );
+     if(input1!=="" || input2!==" " || input3!=="" || input4!=="")
+     return(
+       alert("Submitted :"+input1 +"  "+input2+" "+input3+"  "+input4))
+     ;
+  };
 
+  const input1Handler = (event) => {
+    setInput1(event.target.value);
+  };
+  const input2Handler = (event) => {
+    setInput2(event.target.value);
+  };
+  const input3Handler = (event) => {
+    setInput3(event.target.value);
+  };
+  const input4Handler = (event) => {
+    setInput4(event.target.value);
+  };
   return (
     <div className="contact component__space" id="Contact">
       <div className="row">
@@ -37,11 +50,13 @@ console.log(isValid);
               </p>
 
                 <div className="input__box">
-                <input type="text" id="userName" className="contact name" placeholder="your name *"/>
-                <input type="email" id="email" className="contact email" placeholder="email *"/>
-                <input type="text" id="subject" className="contact subject" placeholder="write a subject"/>
-                <textarea name="message" id="message" placeholder="write your message"></textarea>
-                <button onSubmit={documentRequest} className="btn contact pointer" type="submit">Submit</button>
+                <form>
+                <input onChange={input1Handler} value={input1} type="text"  id="userName" className="contact name" placeholder="your name *"/>
+                <input onChange={input2Handler} value={input2} type="email" id="email" className="contact email" placeholder="email *"/>
+                <input onChange={input3Handler} value={input3} type="text" id="subject" className="contact subject" placeholder="write a subject"/>
+                <textarea onChange={input4Handler} value={input4} name="message" id="message" placeholder="write your message"></textarea>
+                <button onClick={buttonHandler}  className="btn contact pointer" type="submit" >Submit</button>
+                </form>
                 </div>
 
             </div>
