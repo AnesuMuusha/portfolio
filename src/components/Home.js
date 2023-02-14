@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-// import logo from './images/logoWeb.png';
 const Home = () => {
   //fixed header
   window.addEventListener("scroll", function() {

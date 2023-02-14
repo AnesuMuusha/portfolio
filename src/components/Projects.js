@@ -1,17 +1,16 @@
 import React from "react";
 import "./Projects.css";
-import Projects1 from "../images/iconiMessiAndCristiano.jpeg"; 
+import Projects1 from "../images/food7.jpg"; 
 import Projects2 from "../images/ExpenseTracker2.jpg";
 import Projects3 from "../images/myCvImage7.jpg";
-import Projects4 from "../images/logistics_twitter.jpg";
-import Projects5 from "../images/StockPrediction.jpeg";
-import Projects6 from "../images/AI shopping system.jpg";
+import Projects4 from "../images/todo.jpg";
+import Projects5 from "../images/calculator-icon.png";
+import Projects6 from "../images/tic.jpg";
 
 const Projects = () => {
   return (
     <div className="projects component___space" id="Portfolio">
       <div className="heading">
-        <button>test button</button>
         <h1 className="heading">My Latest Projects</h1>
         <p className="heading p__color">Placed in ascending order.</p>
       </div>
@@ -25,9 +24,9 @@ const Projects = () => {
                 </div>
                 <div className="mask__effect"></div>
                 <div className="project__meta absolute">
-                  <h5 className="project__text">Chess Bet</h5>
-                  <h4 className="project__text">Online betting site #Chess</h4>
-                  <a href="https://anesu-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
+                  <h5 className="project__text">Food Order</h5>
+                  <h4 className="project__text">Delivers food to consumers</h4>
+                  <a href="https://food-order-1212.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -83,11 +82,11 @@ const Projects = () => {
                 </div>
                 <div className="mask__effect"></div>
                 <div className="project__meta absolute">
-                  <h5 className="project__text">Transport and Logistics</h5>
+                  <h5 className="project__text">Todo List</h5>
                   <h4 className="project__text">
-                    Movement and storage of goods
+                    Measure your progress
                   </h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <a href="https://my-todo-list1212.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -103,9 +102,9 @@ const Projects = () => {
                 </div>
                 <div className="mask__effect"></div>
                 <div className="project__meta absolute">
-                  <h5 className="project__text">Stock analysis</h5>
-                  <h4 className="project__text">stock Future value</h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <h5 className="project__text">Calculator</h5>
+                  <h4 className="project__text">Be good with numbers</h4>
+                  <a href="https://calculator-1212.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
@@ -121,9 +120,9 @@ const Projects = () => {
                 </div>
                 <div className="mask__effect"></div>
                 <div className="project__meta absolute">
-                  <h5 className="project__text">AI shopping system</h5>
-                  <h4 className="project__text">AI shopping assistant</h4>
-                  <a href="https://anesu-portfolio.netlify.app" className="project__btn">
+                  <h5 className="project__text">Tic tac toe</h5>
+                  <h4 className="project__text">Tic tac toe app</h4>
+                  <a href="https://tic-tac-toe1212.netlify.app/" target="_blank" rel="noopener noreferrer" className="project__btn">
                     View Details
                   </a>
                 </div>
