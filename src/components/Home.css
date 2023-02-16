@@ -1,14 +1,14 @@
 .home__bg{
-    background-image: url("../images/myCvImage5.jpg");
-    background-color: #010101;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.947) ,rgba(5, 5, 5, 0) ),url("../images/myCvImage5.jpg");
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    backdrop-filter: blur(14px) brightness(80%);
 }
 li.nav__items{
-    font-size: 18px;
+    font-size: 28px;
     padding-bottom: 1px;
+    color: rgb(233, 240, 249);
 }
 
 .home__content{
@@ -38,7 +38,15 @@ h4.home__text{
     font-size: 50px;
     font-weight: 800;
     font-family: montserrat,sans-serif;
-    line-height: 40px;   
+    line-height: 40px; 
+      
+}
+h3.home__text{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: montserrat,sans-serif;
+    line-height: 40px; 
+      
 }
 .header{
     transition: 4s all ease;
@@ -86,6 +94,7 @@ li.sideNavbar{
  }
  h2.white.pz__10 {
     font-size: 50px!important;
+    
 }
  svg.bi.bi-justify.white.pointer {
     width: 30px;
@@ -95,10 +104,12 @@ li.sideNavbar{
 @media only screen and (max-width: 425px){
      h2.home__text.pz__10{
     font-size: 32px;
+    
 }
 
 h3.sweet.pz__10 {
     font-size: 40px;
+    
 }
 
 h1.home__text {
