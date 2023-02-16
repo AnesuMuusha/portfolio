@@ -1,12 +1,25 @@
 import React, {useState} from "react";
 import "./Contact.css";
-import contactImg from "../images/myCvImage5.jpg"
+import contactImg from "../images/myCvImage5.jpg";
+import { useForm } from 'react-hook-form';
 
 const Contact = () => {
   const[input1,setInput1]=useState("");
   const[input2,setInput2]=useState("");
   const[input3,setInput3]=useState("");
   const[input4,setInput4]=useState("");
+
+  
+  const {
+    trigger,
+  } = useForm();
+
+  const onSubmit = async(e)=>{
+    const isValid = await trigger();
+    if (!isValid){
+        e.preventDefault();
+    }
+  }
 
   const buttonHandler = ()=>{
    
@@ -32,8 +45,9 @@ const Contact = () => {
   const input4Handler = (event) => {
     setInput4(event.target.value);
   };
+
   return (
-    <div className="contact component__space" id="Contact">
+    <div className="contact-component__space" id="Contact">
       <div className="row">
         <div className="col__2">
           <div className="contact__box">
@@ -50,7 +64,12 @@ const Contact = () => {
               </p>
 
                 <div className="input__box">
-                <form>
+                <form 
+    target="_blank"
+    onSubmit={onSubmit}
+    action='https://formsubmit.co/anesumuusha2@gmail.com'
+    method='POST'
+    >
                 <input onChange={input1Handler} value={input1} type="text"  id="userName" className="contact name" placeholder="your name *"/>
                 <input onChange={input2Handler} value={input2} type="email" id="email" className="contact email" placeholder="email *"/>
                 <input onChange={input3Handler} value={input3} type="text" id="subject" className="contact subject" placeholder="write a subject"/>
