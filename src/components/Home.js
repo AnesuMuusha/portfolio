@@ -2,10 +2,7 @@ import React from "react";
 import "./Home.css";
 const Home = () => {
   //fixed header
-  window.addEventListener("scroll", function() {
-    const header = document.querySelector(".header");
-    header.classList.toggle("active", window.scrollY > 0);
-  });
+  
   return (
     <div className="home__bg" id="Home">
       <div className="header">
@@ -73,9 +70,9 @@ const Home = () => {
             <h4 className="home__text pz__10">
               Based In Cape Town South Africa.
             </h4>
-            <h4 className="home__text pz__10">
+            <h3 className="home__text pz__10">
               Excited to share my experience and continue growing my career.
-            </h4>
+            </h3>
           </div>
         </div>
       </div>

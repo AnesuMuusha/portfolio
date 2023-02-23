@@ -30,7 +30,7 @@ const About = () => {
                 continuously improving my skills and expertise.
               </p>
 
-              <div className="about__button d__flex align__items__center">
+              <div className="about__button">
                 <a href="ANESU_MUUSHA_CV.pdf" download="ANESU_MUUSHA_CV.pdf">
                   <button className="about btn pointer">Download CV</button>
                 </a>
