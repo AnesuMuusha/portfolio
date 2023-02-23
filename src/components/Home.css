@@ -38,9 +38,14 @@ h4.home__text{
     font-size: 50px;
     font-weight: 800;
     font-family: montserrat,sans-serif;
-    line-height: 40px; 
-      
+    line-height: 40px;   
 }
+
+.home__textt pz__10{
+    font-weight: 0;
+    font-size: 300px;
+}
+
 h3.home__text{
     font-size: 50px;
     font-weight: 100;
@@ -49,21 +54,16 @@ h3.home__text{
       
 }
 .header{
-    transition: 4s all ease;
+    position: fixed;
 }
+.navigation.pxy__30{
+    position: fixed;
+};
 .header.active{
     position: fixed;
-    z-index: 1000;
-    width: 100;
+    width: 100%;
     padding:0px 30px;
     background-color: #191919;
-}
-.toggle__menu {
-    display: flex;
-    justify-content: flex-end;
-    float: right;
-    /* z-index: 1000; */
-    width: 100%;
 }
 
 
@@ -90,16 +90,13 @@ li.sideNavbar{
     justify-content: space-between;
 }
     .navigation.pxy__30 {
-        display: none;
+    position:sticky;
  }
  h2.white.pz__10 {
     font-size: 50px!important;
     
 }
- svg.bi.bi-justify.white.pointer {
-    width: 30px;
-    height: 30px;
-}
+
 }
 @media only screen and (max-width: 425px){
      h2.home__text.pz__10{
