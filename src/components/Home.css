@@ -28,11 +28,11 @@ h2.home__text{
     font-family: montserrat,sans-serif;
 }
 
-h3.home__text{
-    font-size: 45px;
-    font-weight: 800;
+h3.home__text1{
+    font-size: 25px;
+    font-weight: 100;
     font-family: montserrat,sans-serif;
-    line-height: 40px;   
+    line-height: 20px;   
 }
 h4.home__text{
     font-size: 50px;
@@ -53,35 +53,7 @@ h3.home__text{
     line-height: 40px; 
       
 }
-.header{
-    position: fixed;
-}
-.navigation.pxy__30{
-    position: fixed;
-};
-.header.active{
-    position: fixed;
-    width: 100%;
-    padding:0px 30px;
-    background-color: #191919;
-}
 
-
-ul.sidebar.d__flex{
-    flex-wrap: wrap;
-    height: 100%;
-    position:fixed;
-    right:0%;
-    background: #010101;
-    justify-content: center;
-    width: 300px;
-    top: 0%;
-    flex-direction: column;
-}
-
-li.sideNavbar{
-    padding:25px 30px;
-}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
@@ -89,12 +61,14 @@ li.sideNavbar{
 .header{
     justify-content: space-between;
 }
-    .navigation.pxy__30 {
-    position:sticky;
- }
+
  h2.white.pz__10 {
     font-size: 50px!important;
     
+}
+
+h3.home__text1{
+    font-size: 20px;
 }
 
 }
@@ -116,4 +90,14 @@ h1.home__text {
 h4.home__text {
     font-size: 45px;
 }
+.header {
+    position: fixed;
+    
+     }
+     li.nav__items{
+        margin: 6px;
+        font-size:12px;
+        padding-bottom: 1px;
+        color: rgb(233, 240, 249);
+    }
 }
