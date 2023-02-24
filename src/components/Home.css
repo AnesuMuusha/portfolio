@@ -5,10 +5,14 @@
     background-size: cover;
     backdrop-filter: blur(14px) brightness(80%);
 }
+.header{
+    background-color: black;
+}
 li.nav__items{
     font-size: 28px;
     padding-bottom: 1px;
     color: rgb(233, 240, 249);
+    margin-left:50px;
 }
 
 .home__content{
@@ -60,6 +64,7 @@ h3.home__text{
     
 .header{
     justify-content: space-between;
+    background-color: rgb(11, 11, 11);
 }
 
  h2.white.pz__10 {
@@ -70,7 +75,14 @@ h3.home__text{
 h3.home__text1{
     font-size: 20px;
 }
-
+li.nav__items{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size:20px;
+    padding-bottom: 1px;
+    color: rgb(233, 240, 249);
+}
 }
 @media only screen and (max-width: 425px){
      h2.home__text.pz__10{
@@ -90,10 +102,10 @@ h1.home__text {
 h4.home__text {
     font-size: 45px;
 }
-.header {
-    position: fixed;
-    
-     }
+.header{
+    background-color: rgb(18, 17, 17);
+    justify-items: center;
+}
      li.nav__items{
         margin: 6px;
         font-size:12px;
