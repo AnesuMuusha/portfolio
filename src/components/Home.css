@@ -5,9 +5,14 @@
     background-size: cover;
     backdrop-filter: blur(14px) brightness(80%);
 }
+
 .header{
     background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0;
 }
+
 li.nav__items{
     font-size: 28px;
     padding-bottom: 1px;
