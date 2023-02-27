@@ -9,7 +9,7 @@ const Service = () => {
         Different types of websites call for their own unique style of web design.
         </p>
         <p className="heading p__color">
-        Best practices for designing as to purpose. 
+        Website categories. 
         </p>
       </div>
 
@@ -44,7 +44,7 @@ const Service = () => {
             </div>
             </a>
           </div>
-
+{/* 
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon">
@@ -70,7 +70,7 @@ const Service = () => {
       
             </div>
           </div>
- 
+  */}
 
 
           <div className="col__3" >
@@ -139,7 +139,7 @@ const Service = () => {
 
 
 
-
+{/* 
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon">
@@ -167,7 +167,7 @@ const Service = () => {
                </p>
 
             </div>
-          </div>
+          </div> */}
 
 
         </div>
