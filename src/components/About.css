@@ -42,6 +42,17 @@ button.about.btn.pointer{
     z-index: 1000;
 
 }
+/* .coll{
+    padding-top: 30%;
+    align-items: center;
+} */
+.about__text{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: montserrat,sans-serif;
+    line-height: 35px;  
+    color: aliceblue; 
+}
 .bottom__to__top{
     display: flex;
 }
