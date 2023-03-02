@@ -15,7 +15,8 @@ const About = () => {
             <img src={myCvImage5} alt="" className="about__img" />
           </div>
           <div className="col__2">
-            <h1 className="about__heading">About Me</h1>
+            <div className="coll">           
+             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
                 I am a driven and eager software developer with a passion for
@@ -40,6 +41,8 @@ const About = () => {
               </div>
             </div>
           </div>
+          </div>
+
         </div>
       </div>
 
