@@ -1,5 +1,5 @@
 .home__bg{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.947) ,rgba(5, 5, 5, 0) ),url("../images/myCvImage5.jpg");
+    background-image: linear-gradient(to right, rgba(25, 25, 25, 0.947) ,rgba(188, 0, 0, 0) ),url("../images/myCvImage5.jpg");
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
 li.nav__items{
     font-size: 28px;
     padding-bottom: 1px;
-    color: rgb(233, 240, 249);
+    color: rgb(243, 247, 251);
     margin-left:50px;
 }
 

@@ -8,6 +8,7 @@ const Contact = () => {
   const[input2,setInput2]=useState("");
   const[input3,setInput3]=useState("");
   const[input4,setInput4]=useState("");
+  // const [postData, setPostData] = useState([]);
 
   
   const {
@@ -19,6 +20,17 @@ const Contact = () => {
     if (!isValid){
         e.preventDefault();
     }
+    // const data={
+    //   input1:input1,
+    //   input2:input2,
+    //   input3:input3,
+    //   input4:input4,
+    // };
+    // setPostData([...postData, data])
+    // setInput1('');
+    // setInput2('');
+    // setInput3('');
+    // setInput4('');
   }
 
   const buttonHandler = ()=>{
@@ -67,14 +79,15 @@ const Contact = () => {
                 <form 
     target="_blank"
     onSubmit={onSubmit}
-    action='https://formsubmit.co/anesumuusha2@gmail.com'
+    action='https://formsubmit.co/anesumuusha@gmail.com'
     method='POST'
     >
-                <input onChange={input1Handler} value={input1} type="text"  id="userName" className="contact name" placeholder="your name *"/>
-                <input onChange={input2Handler} value={input2} type="email" id="email" className="contact email" placeholder="email *"/>
-                <input onChange={input3Handler} value={input3} type="text" id="subject" className="contact subject" placeholder="write a subject"/>
-                <textarea onChange={input4Handler} value={input4} name="message" id="message" placeholder="write your message"></textarea>
-                <button onClick={buttonHandler}  className="btn contact pointer" type="submit" >Submit</button>
+                <input onChange={input1Handler}  value={input1} name='username' type="text"  id="userName" className="contact name" placeholder="your name *"/>
+                <input onChange={input2Handler}  value={input2} name='email' type="email" id="email" className="contact email" placeholder="email *"/>
+                <input onChange={input3Handler}  value={input3} name="subject" type="text" id="subject" className="contact subject" placeholder="write a subject"/>
+                <textarea onChange={input4Handler} value={input4} name="message" id="message" placeholder="write your message">
+                 </textarea>
+                <button onClick={buttonHandler} className="btn contact pointer" type="submit" >Submit</button>
                 </form>
                 </div>
 

@@ -63,7 +63,7 @@ const Home = () => {
 
             <h2 className="home__text pz__10">Hi, Im Anesu Muusha</h2>
 
-            <h3 className="home__text sweet">Js Developer.</h3>
+            <h3 className="home__text sweet">Software Developer.</h3>
 
             <h4 className="home__text pz__10">
               Based In Cape Town South Africa.
