@@ -20,17 +20,6 @@ const Contact = () => {
     if (!isValid){
         e.preventDefault();
     }
-    // const data={
-    //   input1:input1,
-    //   input2:input2,
-    //   input3:input3,
-    //   input4:input4,
-    // };
-    // setPostData([...postData, data])
-    // setInput1('');
-    // setInput2('');
-    // setInput3('');
-    // setInput4('');
   }
 
   const buttonHandler = ()=>{
