@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import myCvImage5 from "../images/myCvImage5.jpg";
 const About = () => {
-  //up to top Btn
   window.addEventListener("scroll", function() {
     const upToTop = document.querySelector("a.bottom__to__top");
     upToTop.classList.toggle("active", window.scrollY > 0);
@@ -45,8 +44,6 @@ const About = () => {
 
         </div>
       </div>
-
-      {/*up tp top button*/}
       <div className="up__to__top__btn">
       <a href="#Home"
           className="bottom__to__top"
