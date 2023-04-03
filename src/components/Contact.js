@@ -8,9 +8,7 @@ const Contact = () => {
   const[input2,setInput2]=useState("");
   const[input3,setInput3]=useState("");
   const[input4,setInput4]=useState("");
-  // const [postData, setPostData] = useState([]);
 
-  
   const {
     trigger,
   } = useForm();
@@ -58,7 +56,7 @@ const Contact = () => {
                 I'm ready to start. Contact with me via phone:
               </p>
               <p className="hire__text white">
-                <strong>+27687070925 </strong>
+                <strong>+27719270935</strong>
                 <strong>or email</strong><br/>
                <a href="https://mail.google.com/"><strong>anesumuusha@gmail.com</strong></a><br/>
                 {/* <strong>anesumuusha@gmail.com</strong> */}
@@ -76,7 +74,7 @@ const Contact = () => {
                 <input onChange={input3Handler}  value={input3} name="subject" type="text" id="subject" className="contact subject" placeholder="write a subject"/>
                 <textarea onChange={input4Handler} value={input4} name="message" id="message" placeholder="write your message">
                  </textarea>
-                <button onClick={buttonHandler} className="btn contact pointer" type="submit" >Submit</button>
+                <button onClick={buttonHandler} className="about btn pointer" type="submit">Submit</button>
                 </form>
                 </div>
 
