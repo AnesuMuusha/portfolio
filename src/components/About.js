@@ -23,7 +23,7 @@ const About = () => {
                 skills and knowledge in the tech industry, and I am constantly
                 seeking new challenges to help me grow.
                  My current tech stack
-                includes React.js, Node.js, HTML, CSS, JavaScript, PHP, and C++, and
+                includes React.js, Node.js, HTML, CSS, and JavaScript, and
                 I am excited to continue exploring and mastering new
                 technologies. As a junior developer, I am committed to
                 delivering high-quality, user-friendly applications and to
