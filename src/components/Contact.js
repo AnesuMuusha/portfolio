@@ -57,7 +57,7 @@ const Contact = () => {
               </p>
               <p className="hire__text white">
                 <strong>+27719270935</strong>
-                <strong>or email</strong><br/>
+                <strong> or email</strong><br/>
                <a href="https://mail.google.com/"><strong>anesumuusha@gmail.com</strong></a><br/>
                 {/* <strong>anesumuusha@gmail.com</strong> */}
               </p>
