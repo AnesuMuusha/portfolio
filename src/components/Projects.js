@@ -5,7 +5,7 @@ import Projects2 from "../images/p2.jpg";
 import Projects3 from "../images/myCvImage7.jpg";
 import Projects4 from "../images/todo.jpg";
 import Projects5 from "../images/calc.png";
-import Projects6 from "../images/tic.jpg";
+import Projects6 from "../images/peruzal1.png";
 
 const Projects = () => {
   // const displayHover = () => {
@@ -150,10 +150,10 @@ const Projects = () => {
                 </div>
                 <div className="mask__effect"></div>
                 <div className="project__meta absolute">
-                  <h5 className="project__text">Tic tac toe</h5>
-                  <h4 className="project__text">Tic tac toe app</h4>
+                  <h5 className="project__text">Peruzal</h5>
+                  <h4 className="project__text">Online courses</h4>
                   <a
-                    href="https://tic-tac-toe1212.netlify.app/"
+                    href="https://shimmering-sable-b669cc.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="project__btn"
